@@ -60,7 +60,7 @@ public class Account {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
         } else {
-            throw new IllegalArgumentException("餘額必須為正數");
+            throw new IllegalArgumentException("提款必須為正數");
         }
     }
 }
